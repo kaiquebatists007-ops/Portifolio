@@ -46,36 +46,124 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmEstudos.cs">
+    <Compile Include="Estudos\FrmEstudos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEstudos.Designer.cs">
+    <Compile Include="Estudos\FrmEstudos.Designer.cs">
       <DependentUpon>FrmEstudos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPrincipal.cs">
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Form1.cs" />
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Program.cs" />
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Properties\AssemblyInfo.cs" />
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Properties\Resources.Designer.cs" />
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Properties\Settings.Designer.cs" />
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Resultado.cs" />
+    <Compile Include="Projetos\numero_primo\NumeroPrimo\Resultado.Designer.cs">
+      <DependentUpon>Resultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tela Principal\FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrincipal.Designer.cs">
+    <Compile Include="Tela Principal\FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Projetos\FrmProjetos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Projetos\FrmProjetos.Designer.cs">
+      <DependentUpon>FrmProjetos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmEstudos.resx">
+    <EmbeddedResource Include="Estudos\FrmEstudos.resx">
       <DependentUpon>FrmEstudos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPrincipal.resx">
-      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="Projetos\numero_primo\NumeroPrimo\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Projetos\numero_primo\NumeroPrimo\Properties\Resources.resx" />
+    <EmbeddedResource Include="Projetos\numero_primo\NumeroPrimo\Resultado.resx">
+      <DependentUpon>Resultado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="Tela Principal\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Projetos\FrmProjetos.resx">
+      <DependentUpon>FrmProjetos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Projetos\numero_primo\.git\COMMIT_EDITMSG" />
+    <None Include="Projetos\numero_primo\.git\config" />
+    <None Include="Projetos\numero_primo\.git\description" />
+    <None Include="Projetos\numero_primo\.git\FETCH_HEAD" />
+    <None Include="Projetos\numero_primo\.git\HEAD" />
+    <None Include="Projetos\numero_primo\.git\hooks\applypatch-msg.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\commit-msg.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\post-update.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\pre-applypatch.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\pre-commit.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\pre-merge-commit.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\pre-push.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\pre-rebase.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\pre-receive.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\push-to-checkout.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\sendemail-validate.sample" />
+    <None Include="Projetos\numero_primo\.git\hooks\update.sample" />
+    <None Include="Projetos\numero_primo\.git\index" />
+    <None Include="Projetos\numero_primo\.git\info\exclude" />
+    <None Include="Projetos\numero_primo\.git\logs\HEAD" />
+    <None Include="Projetos\numero_primo\.git\logs\refs\heads\master" />
+    <None Include="Projetos\numero_primo\.git\logs\refs\remotes\origin\master" />
+    <None Include="Projetos\numero_primo\.git\objects\04\bb4ebed51a27788a98b41aede21d322f165b6a" />
+    <None Include="Projetos\numero_primo\.git\objects\0c\a9cc8142a40a7d0d52934396368ebb5d0653d9" />
+    <None Include="Projetos\numero_primo\.git\objects\0d\ea17e0b00b11921768bb2eff6a42ed01499b6e" />
+    <None Include="Projetos\numero_primo\.git\objects\10\4f22161b30a7863072ef2c7bed6b0075f4c6b1" />
+    <None Include="Projetos\numero_primo\.git\objects\12\a948516c959fdd21776cd91e95b5f6db775ece" />
+    <None Include="Projetos\numero_primo\.git\objects\1a\f7de150c99c12dd67a509fe57c10d63e4eeb04" />
+    <None Include="Projetos\numero_primo\.git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include="Projetos\numero_primo\.git\objects\20\e1c86501e7036ad8cb27950c6293f822ad8ce4" />
+    <None Include="Projetos\numero_primo\.git\objects\33\7c65668c9e5f475ea4b8baf1aaa3e375311d5c" />
+    <None Include="Projetos\numero_primo\.git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4" />
+    <None Include="Projetos\numero_primo\.git\objects\3c\aefed241123474ec41482e6866631a083efdd9" />
+    <None Include="Projetos\numero_primo\.git\objects\45\a73cc39dc08829117d65aadc9dee4f27cfee8e" />
+    <None Include="Projetos\numero_primo\.git\objects\51\d602895d76e2f4af9ffe2d51568ea5b8ec3faa" />
+    <None Include="Projetos\numero_primo\.git\objects\8a\a26455d23acf904be3ed9dfb3a3efe3e49245a" />
+    <None Include="Projetos\numero_primo\.git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include="Projetos\numero_primo\.git\objects\9b\11279ef94f8f4748666350a5cb6d65a39312d3" />
+    <None Include="Projetos\numero_primo\.git\objects\a5\972fa01713f58802b02c4aa13014d4c22c2615" />
+    <None Include="Projetos\numero_primo\.git\objects\a9\b4c75d7c28dd9544902f4387c8ae58e2ef7d40" />
+    <None Include="Projetos\numero_primo\.git\objects\ae\e9adf485c91811d23c4b862e9a2031f2b55c95" />
+    <None Include="Projetos\numero_primo\.git\objects\af\7dbebbacef595e3089c01c05671016c21a8304" />
+    <None Include="Projetos\numero_primo\.git\objects\b4\ba741fdb4eff4e1838254069db6df4d54b43ec" />
+    <None Include="Projetos\numero_primo\.git\objects\f4\a247747808eb81c25163a795ed63ca9db9c735" />
+    <None Include="Projetos\numero_primo\.git\objects\fb\becedecf232ee3a5cdd1d3dfc59568512e1d61" />
+    <None Include="Projetos\numero_primo\.git\refs\heads\master" />
+    <None Include="Projetos\numero_primo\.git\refs\remotes\origin\master" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\FileContentIndex\1d7df3a8-ca8f-4e28-88b5-ef3162ec27d7.vsidx" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\FileContentIndex\314f5cb6-c4cc-4f55-8fe6-5de78ba9ca95.vsidx" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\FileContentIndex\73616dac-8c4a-42ff-9acf-79b0fb2fa5a6.vsidx" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\FileContentIndex\8989959d-244a-48f6-9665-2b82800700cf.vsidx" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\FileContentIndex\af70da50-919b-4c37-896b-4b91cdfb8245.vsidx" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\v18\.suo" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\v18\DocumentLayout.backup.json" />
+    <None Include="Projetos\numero_primo\.vs\NumeroPrimo.slnx\v18\DocumentLayout.json" />
+    <None Include="Projetos\numero_primo\NumeroPrimo\App.config" />
+    <None Include="Projetos\numero_primo\NumeroPrimo\bin\Debug\NumeroPrimo.exe.config" />
+    <None Include="Projetos\numero_primo\NumeroPrimo\NumeroPrimo.csproj" />
+    <None Include="Projetos\numero_primo\NumeroPrimo\Properties\Settings.settings" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +176,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kaique.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Projetos\numero_primo\.gitattributes" />
+    <Content Include="Projetos\numero_primo\.gitignore" />
+    <Content Include="Projetos\numero_primo\.git\ms-persist.xml" />
+    <Content Include="Projetos\numero_primo\LICENSE.txt" />
+    <Content Include="Projetos\numero_primo\NumeroPrimo.slnx" />
+    <Content Include="Projetos\numero_primo\NumeroPrimo\bin\Debug\NumeroPrimo.exe" />
+    <Content Include="Projetos\numero_primo\NumeroPrimo\bin\Debug\NumeroPrimo.pdb" />
+    <Content Include="Projetos\numero_primo\README.md" />
+    <Content Include="Projetos\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Projetos\numero_primo\.git\objects\info\" />
+    <Folder Include="Projetos\numero_primo\.git\objects\pack\" />
+    <Folder Include="Projetos\numero_primo\.git\refs\tags\" />
+    <Folder Include="Projetos\numero_primo\NumeroPrimo\bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

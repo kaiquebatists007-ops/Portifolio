@@ -121,4 +121,13 @@
   <data name="Kaique" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kaique.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PrimeiraTela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrimeiraTela.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SegundaTela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SegundaTela.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TerceiraTela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TerceiraTela.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
