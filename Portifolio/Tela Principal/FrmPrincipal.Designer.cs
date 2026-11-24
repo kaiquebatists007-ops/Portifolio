@@ -430,7 +430,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FrmPortifolio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Portifolio v1.1";
+            this.Text = "Portifolio v1.2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

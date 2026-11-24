@@ -22,7 +22,8 @@ namespace Portifolio
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            FrmProjetos P = new FrmProjetos();
+            P.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
