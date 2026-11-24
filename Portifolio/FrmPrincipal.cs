@@ -19,5 +19,16 @@ namespace Portifolio
             // MessageBox.Show("Este portfólio é uma coleção de projetos que refletem meu crescimento como desenvolvedor e minha paixão por aprender novas tecnologias.", "Sobre o Portfólio", MessageBoxButtons.OK);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmEstudos E = new FrmEstudos();
+            E.Show();
+        }
     }
 }
