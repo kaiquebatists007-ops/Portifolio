@@ -13,7 +13,6 @@ using System.Windows.Forms;
 
 namespace Portifolio
 {
-
     public partial class FrmProjetos : Form
     {
         // Lista para saber quais PictureBox estão na tela e poder apagá-los depois
