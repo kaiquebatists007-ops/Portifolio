@@ -27,6 +27,12 @@ Formulário desenvolvido em **C#** com **Windows Forms (.NET Framework)** respon
 
 ---
 
+## 📸 Preview da Aplicação
+
+- `Pasta Telas`
+
+---
+
 ## 🛠️ Tecnologias e Namespaces Utilizados
 - **Linguagem:** C#
 - **Framework:** .NET Framework (Windows Forms)

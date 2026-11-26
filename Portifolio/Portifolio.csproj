@@ -190,6 +190,11 @@
     <Content Include="Projetos\numero_primo\NumeroPrimo\bin\Debug\NumeroPrimo.pdb" />
     <Content Include="Projetos\numero_primo\README.md" />
     <Content Include="Projetos\README.md" />
+    <Content Include="Projetos\Telas\Tela1.png" />
+    <Content Include="Projetos\Telas\Tela2.png" />
+    <Content Include="Projetos\Telas\Tela3.png" />
+    <Content Include="Projetos\Telas\Tela4.png" />
+    <Content Include="Projetos\Telas\Tela5.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Projetos\numero_primo\.git\objects\info\" />
